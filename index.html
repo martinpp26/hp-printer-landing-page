@@ -1,215 +1,374 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>HP Printer Support USA | Call for Immediate Help</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Printer Support USA | Call for Immediate Help</title>
 
-    <meta name="description" content="Having issues with your HP printer? Get fast, reliable HP printer support in the USA. Call now to speak with a live printer expert.">
+  <meta name="description" content="Having printer issues? Get fast, reliable printer support in the USA for setup, connectivity, printing errors, and more. Call now to speak with a live support specialist." />
 
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
-	<link rel="icon" type="image/png" href="/favicon.png">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/png" href="/favicon.png">
 
-    <style>
-        body {
-            margin: 0;
-            font-family: 'Roboto', sans-serif;
-            background-color: #f4f6f8;
-            color: #333;
-            line-height: 1.6;
-        }
+  <style>
+    :root{
+      --primary:#0d6efd;
+      --success:#28a745;
+      --successHover:#218838;
+      --bg:#f4f6f8;
+      --text:#333;
+      --card:#fff;
+      --muted:#667085;
+      --warnBg:#fff3cd;
+      --accent:#d63384;
+      --border:#e6e8ec;
+    }
 
-        .container {
-            max-width: 1100px;
-            margin: auto;
-            padding: 20px;
-        }
+    body{
+      margin:0;
+      font-family:'Roboto',sans-serif;
+      background-color:var(--bg);
+      color:var(--text);
+      line-height:1.6;
+    }
 
-        header {
-            background-color: #0d6efd;
-            color: #fff;
-            padding: 50px 20px;
-            text-align: center;
-        }
+    .container{
+      max-width:1100px;
+      margin:auto;
+      padding:20px;
+    }
 
-        header h1 {
-            font-size: 2.6rem;
-            margin-bottom: 10px;
-        }
+    header{
+      background-color:var(--primary);
+      color:#fff;
+      padding:50px 20px;
+      text-align:center;
+    }
 
-        header p {
-            font-size: 1.3rem;
-            margin-bottom: 25px;
-        }
+    header h1{
+      font-size:2.6rem;
+      margin:0 0 10px;
+    }
 
-        .cta-button {
-            background-color: #28a745;
-            color: #fff;
-            padding: 18px 30px;
-            font-size: 1.4rem;
-            border-radius: 6px;
-            text-decoration: none;
-            display: inline-block;
-        }
+    header p{
+      font-size:1.25rem;
+      margin:0 0 22px;
+      opacity:0.95;
+    }
 
-        .cta-button:hover {
-            background-color: #218838;
-        }
+    .cta-button{
+      background-color:var(--success);
+      color:#fff;
+      padding:18px 30px;
+      font-size:1.25rem;
+      border-radius:8px;
+      text-decoration:none;
+      display:inline-block;
+      font-weight:700;
+      letter-spacing:0.2px;
+    }
 
-        section {
-            background: #fff;
-            margin-top: 30px;
-            padding: 30px;
-            border-radius: 8px;
-            box-shadow: 0 2px 8px rgba(0,0,0,0.08);
-        }
+    .cta-button:hover{ background-color:var(--successHover); }
 
-        h2 {
-            font-size: 2rem;
-            margin-bottom: 15px;
-        }
+    .sub-cta{
+      margin-top:14px;
+      font-size:0.98rem;
+      opacity:0.95;
+    }
 
-        ul {
-            font-size: 1.1rem;
-        }
+    section{
+      background:var(--card);
+      margin-top:30px;
+      padding:30px;
+      border-radius:10px;
+      box-shadow:0 2px 8px rgba(0,0,0,0.08);
+      border:1px solid rgba(0,0,0,0.03);
+    }
 
-        ul li {
-            margin-bottom: 8px;
-        }
+    h2{
+      font-size:1.9rem;
+      margin:0 0 12px;
+    }
 
-        .stats {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 20px;
-            text-align: center;
-        }
+    p{ margin:0 0 12px; }
 
-        .stat-box {
-            flex: 1;
-            min-width: 250px;
-            background: #f9fafb;
-            padding: 20px;
-            border-radius: 6px;
-        }
+    ul{
+      font-size:1.05rem;
+      margin:10px 0 0 18px;
+    }
+    ul li{ margin-bottom:8px; }
 
-        .stat-box h3 {
-            font-size: 1.8rem;
-            color: #0d6efd;
-        }
+    .stats{
+      display:flex;
+      flex-wrap:wrap;
+      gap:20px;
+      text-align:center;
+    }
 
-        .phone-box {
-            text-align: center;
-            background-color: #fff3cd;
-            padding: 30px;
-            border-radius: 8px;
-            margin-top: 30px;
-        }
+    .stat-box{
+      flex:1;
+      min-width:250px;
+      background:#f9fafb;
+      padding:20px;
+      border-radius:10px;
+      border:1px solid var(--border);
+    }
 
-        .phone-box p {
-            font-size: 1.3rem;
-        }
+    .stat-box h3{
+      font-size:1.7rem;
+      color:var(--primary);
+      margin:0 0 6px;
+    }
 
-        .phone-number {
-            font-size: 2rem;
-            font-weight: bold;
-            color: #d63384;
-        }
+    .badges{
+      display:flex;
+      gap:10px;
+      flex-wrap:wrap;
+      margin-top:10px;
+    }
 
-        footer {
-            margin-top: 40px;
-            background-color: #333;
-            color: #fff;
-            text-align: center;
-            padding: 20px;
-            font-size: 0.9rem;
-        }
+    .badge{
+      display:inline-block;
+      padding:8px 12px;
+      border-radius:999px;
+      background:#f1f5ff;
+      border:1px solid #dbe7ff;
+      color:#1f3b7a;
+      font-size:0.95rem;
+      font-weight:600;
+    }
 
-        @media (max-width: 768px) {
-            header h1 {
-                font-size: 2.1rem;
-            }
+    .grid-2{
+      display:grid;
+      grid-template-columns:1fr 1fr;
+      gap:18px;
+      margin-top:12px;
+    }
 
-            .cta-button {
-                font-size: 1.2rem;
-            }
-        }
-    </style>
+    .card-mini{
+      background:#fbfcfe;
+      border:1px solid var(--border);
+      border-radius:10px;
+      padding:16px;
+    }
+
+    .card-mini h3{
+      margin:0 0 6px;
+      font-size:1.1rem;
+      color:#111827;
+    }
+
+    .muted{ color:var(--muted); font-size:0.98rem; }
+
+    .phone-box{
+      text-align:center;
+      background-color:var(--warnBg);
+      padding:30px;
+      border-radius:12px;
+      margin-top:30px;
+      border:1px solid #ffe08a;
+    }
+
+    .phone-box p{ font-size:1.15rem; margin:0 0 10px; }
+
+    .phone-number{
+      font-size:2rem;
+      font-weight:800;
+      color:var(--accent);
+      margin:0 0 14px;
+    }
+
+    .fineprint{
+      font-size:0.92rem;
+      color:var(--muted);
+      line-height:1.5;
+    }
+
+    .policy-links a{
+      color:#fff;
+      text-decoration:underline;
+    }
+
+    footer{
+      margin-top:40px;
+      background-color:#333;
+      color:#fff;
+      text-align:center;
+      padding:22px 16px;
+      font-size:0.92rem;
+    }
+
+    .footer-inner{
+      max-width:1100px;
+      margin:0 auto;
+    }
+
+    @media (max-width: 900px){
+      .grid-2{ grid-template-columns:1fr; }
+    }
+
+    @media (max-width: 768px){
+      header h1{ font-size:2.05rem; }
+      header p{ font-size:1.12rem; }
+      .cta-button{ font-size:1.1rem; padding:16px 22px; }
+      .phone-number{ font-size:1.7rem; }
+    }
+  </style>
 </head>
 
 <body>
 
 <header>
     <div class="container">
-        <h1>HP Printer Not Working? Get Immediate Help</h1>
-        <p>Trusted HP printer support for home & office users across the USA</p>
-        <a href="tel:+18552493733" class="cta-button">📞 Call HP Printer Support Now : +1-855-249-3733</a>
+        <h1>Printer Not Working? Get Immediate Help</h1>
+        <p><strong>Printer Service Hub</strong> — Independent Printer Support for Home & Office Users</p>
+
+        <a href="tel:+18552493733" class="cta-button">
+            📞 Call Printer Service Hub Now : +1-855-249-3733
+        </a>
+
+        <div class="sub-cta">
+            Setup • Wi-Fi Issues • Printing Errors • Ink & Toner Problems
+        </div>
     </div>
 </header>
 
+
 <div class="container">
 
-    <section>
-        <h2>We Specialize in HP Printers</h2>
-        <p>If your HP printer is not printing, showing errors, or needs setup help, our experienced technicians are ready to assist you.</p>
-        <ul>
-            <li>HP DeskJet & HP Envy Printers</li>
-            <li>HP OfficeJet & OfficeJet Pro</li>
-            <li>HP LaserJet & Color LaserJet</li>
-        </ul>
-    </section>
+  <section>
+    <h2>Support for Most Printer Brands</h2>
+    <p>
+      If your printer is not printing, shows an error, won’t connect to Wi-Fi, or needs setup help, our support specialists are ready to assist.
+    </p>
 
-    <section class="stats">
-        <div class="stat-box">
-            <h3>80%+</h3>
-            <p>Of U.S. home offices rely on printers regularly</p>
-        </div>
-        <div class="stat-box">
-            <h3>1 in 3</h3>
-            <p>Printer issues are software or setup related and fixable quickly</p>
-        </div>
-        <div class="stat-box">
-            <h3>Save Money</h3>
-            <p>Repairing your HP printer costs far less than replacing it</p>
-        </div>
-    </section>
-
-    <section>
-        <h2>Common HP Printer Issues We Help With</h2>
-        <ul>
-            <li>HP printer not printing or offline</li>
-            <li>Paper jam or ink cartridge errors</li>
-            <li>Wi-Fi and wireless connection issues</li>
-            <li>HP printer setup and installation</li>
-            <li>Slow printing or poor print quality</li>
-        </ul>
-    </section>
-
-    <section>
-        <h2>Why Customers Over 40 Trust Us</h2>
-        <ul>
-            <li>Easy phone support — speak to a real person</li>
-            <li>No complicated steps or technical language</li>
-            <li>Fast, patient, and friendly assistance</li>
-            <li>Support for both home and office printers</li>
-        </ul>
-    </section>
-
-    <div class="phone-box">
-        <p>Need help right now? Call our HP printer support team</p>
-        <p class="phone-number">📞 +1-855-249-3733</p>
-        <a href="tel:+18552493733" class="cta-button">Call Now</a>
+    <div class="badges">
+      <span class="badge">HP</span>
+      <span class="badge">Epson</span>
+      <span class="badge">Canon</span>
+      <span class="badge">Brother</span>
+      <span class="badge">Lexmark</span>
+      <span class="badge">Xerox</span>
+      <span class="badge">And more</span>
     </div>
+
+    <div class="grid-2">
+      <div class="card-mini">
+        <h3>Printer Types We Cover</h3>
+        <p class="muted">Inkjet • Laser • All-in-One • Wireless • Network printers</p>
+      </div>
+      <div class="card-mini">
+        <h3>Devices & Platforms</h3>
+        <p class="muted">Windows • macOS • iPhone/iPad • Android • Chromebooks (where supported)</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="stats">
+    <div class="stat-box">
+      <h3>Fast Help</h3>
+      <p>Most printer issues are setup, driver, Wi-Fi, or configuration related</p>
+    </div>
+    <div class="stat-box">
+      <h3>Remote Support</h3>
+      <p>We can guide you step-by-step and help troubleshoot efficiently</p>
+    </div>
+    <div class="stat-box">
+      <h3>Clear Pricing</h3>
+      <p>We disclose any service fees before starting work (no surprise charges)</p>
+    </div>
+  </section>
+
+  <section>
+    <h2>Common Printer Issues We Help With</h2>
+    <ul>
+      <li>Printer not printing, stuck queue, or offline</li>
+      <li>Wi-Fi / wireless connection and network setup issues</li>
+      <li>Driver installation, updates, and software configuration</li>
+      <li>Paper jam, cartridge/toner errors, and alignment problems</li>
+      <li>Slow printing, streaks, faded output, or poor print quality</li>
+      <li>Scanner not working (all-in-one printers)</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>What to Expect When You Call</h2>
+    <div class="grid-2">
+      <div class="card-mini">
+        <h3>1) Quick Questions</h3>
+        <p class="muted">We’ll ask your printer model, the error message (if any), and how it’s connected (USB/Wi-Fi).</p>
+      </div>
+      <div class="card-mini">
+        <h3>2) Guided Troubleshooting</h3>
+        <p class="muted">Step-by-step help. If remote support is needed, we’ll explain it clearly before proceeding.</p>
+      </div>
+      <div class="card-mini">
+        <h3>3) Pricing Before Work</h3>
+        <p class="muted">Any fees (if applicable) are explained and approved by you before we start service.</p>
+      </div>
+      <div class="card-mini">
+        <h3>4) Resolution & Next Steps</h3>
+        <p class="muted">We confirm printing/scanning works and share simple tips to prevent the issue again.</p>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Why Customers Trust Our Support</h2>
+    <ul>
+      <li>Speak to a real person — no complicated steps</li>
+      <li>Patient, friendly guidance for non-technical users</li>
+      <li>Support for home, small business, and office printers</li>
+      <li>Transparent process and clear disclosures</li>
+    </ul>
+  </section>
+
+  <!-- Compliance / low-risk section for ads & users -->
+  <section>
+    <h2>Important Disclosures</h2>
+    <p class="fineprint">
+      We provide <strong>independent third-party</strong> printer support services. We are <strong>not affiliated with, endorsed by, or sponsored by</strong>
+      any printer manufacturer (including HP®, Epson®, Canon®, Brother®, Lexmark®, Xerox®). Brand names and trademarks are used only to identify compatible products.
+    </p>
+    <p class="fineprint">
+      If you choose paid support, pricing will be disclosed <strong>before</strong> any billable service begins. If your issue appears to be hardware failure or requires
+      in-person repair, we’ll let you know and suggest appropriate next steps.
+    </p>
+  </section>
+
+  <div class="phone-box">
+    <p>Need help right now? Call our printer support team</p>
+    <p class="phone-number">📞 +1-855-249-3733</p>
+    <a href="tel:+18552493733" class="cta-button">Call Now</a>
+
+    <!-- TCPA / consent language (important when advertising calls) -->
+    <p class="fineprint" style="margin-top:14px;">
+      By calling, you agree to receive support related to your request. If we need to follow up by phone/text, we will ask for your consent.
+    </p>
+  </div>
 
 </div>
 
 <footer>
-    <p>
-        We provide independent printer support services and are not affiliated with or endorsed by HP®.<br>
-        © 2026 Printer Support USA. All rights reserved.
-    </p>
+    <div class="footer-inner">
+        <p>
+            <strong>Printer Service Hub</strong> provides independent third-party printer support services.<br>
+            We are not affiliated with, endorsed by, or sponsored by any printer manufacturer.
+        </p>
+
+        <p style="margin-top:10px;">
+            © 2026 Printer Service Hub. All rights reserved.
+        </p>
+
+        <p class="policy-links" style="margin-top:10px;">
+            <a href="/privacy.html">Privacy Policy</a> •
+            <a href="/terms.html">Terms & Conditions</a> •
+            <a href="/refund.html">Refund Policy</a> •
+            <a href="/contact.html">Contact Us</a>
+        </p>
+    </div>
 </footer>
+
 
 </body>
 </html>
-
-
